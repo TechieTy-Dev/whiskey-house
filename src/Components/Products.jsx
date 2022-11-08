@@ -20,7 +20,7 @@ const Products = () => {
     </ul>
   </div>
         <div className="relative">
-        <h1 className="bottle-font  text-[#66361E] font-normal text-center w-full text-[160px] tracking-[8px] mt-[150px] relative z-10 leading-[140px]"> Malted  Barley & <br/>  New American Oak</h1>
+        <h1 className="bottle-font  text-[#66361E] font-normal text-center w-full lg:text-[9.5rem] lg:tracking-[.5rem] lg:mt-[9rem] relative z-10 lg:leading-[140px] md:text-[8.125rem] md:mt-[9rem]"> Malted  Barley & <br/>  New American Oak</h1>
         <img src={bottle} alt="whisky" className='z-20 w-[600px]  h-[800px] mx-auto relative mt-[-240px]' />
           
          
@@ -28,7 +28,7 @@ const Products = () => {
       </section>
       <section className=''>
         <h1 className="text-[#66361E] font-normal mt-10">Our Products</h1>
-        <div className="grid grid-cols-3 gap-6 mb-20 card-group">
+        <div className="grid grid-cols-1 gap-6 mb-20 card-group md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3">
           <Card />
           <Card/>
           <Card />
@@ -42,7 +42,7 @@ const Products = () => {
           <div className="flex justify-center w-1/2 mx-[275px] items-center h-screen">
             <div className="flex flex-row newsletter h-[450px]">
             <img src={glass} alt="glass" className="object-cover w-1/3 h-[450px]"/>
-            <div className="bg-black newsletter ">
+            <div className="bg-black newsletter opacity-90 ">
               <h1 className="text-white font-normal text-[60px] leading-[56px] tracking-[10px] w-[605px] mt-5 h-[141px]">Join our Newsletter</h1>
               <p className="text-white font-light text-[24px] leading-[27px] mb-4 text-center w-[555px] h-[57px] tracking-[1px]">And be the first to know about our deals and upcoming events.</p>
               <div className="flex flex-col w-1/2 h-2 mx-auto">

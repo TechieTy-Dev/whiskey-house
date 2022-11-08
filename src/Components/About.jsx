@@ -44,7 +44,7 @@ const About = () => {
     
     </div>
     <div className='w-[400px]'>
-      <p className="text-white mt-[275px] text-[24px]">Starting as a small idea from an overly ambitious father and son duo, the business was started at a small town outside Austin. With one single barrel the dream was put into motion, and they never looked back from that moment on.</p>
+      <p className="text-white mt-[275px]">Starting as a small idea from an overly ambitious father and son duo, the business was started at a small town outside Austin. With one single barrel the dream was put into motion, and they never looked back from that moment on.</p>
     </div>
     
 
@@ -58,7 +58,7 @@ const About = () => {
       <img src={stills} alt="town" className="w-[540px] ml-[80px] mt-[80px] h-[515px]" />
     </div>
     <div className='w-[400px]'>
-      <p className="text-white mt-[275px]  text-[24px]">Starting as a small idea from an overly ambitious father and son duo, the business was started at a small town outside Austin. With one single barrel the dream was put into motion, and they never looked back from that moment on.</p>
+      <p className="text-white mt-[275px]">Starting as a small idea from an overly ambitious father and son duo, the business was started at a small town outside Austin. With one single barrel the dream was put into motion, and they never looked back from that moment on.</p>
     </div>
     <div className="vertical-line"></div>
   </div>
@@ -71,7 +71,7 @@ const About = () => {
       <img src={barrels} alt="town" className="w-[700px] mt-[18px] h-[700px]" />
     </div>
     <div className='w-[400px]'>
-      <p className="text-white mt-[275px]  text-[24px]">Starting as a small idea from an overly ambitious father and son duo, the business was started at a small town outside Austin. With one single barrel the dream was put into motion, and they never looked back from that moment on.</p>
+      <p className="text-white mt-[275px]">Starting as a small idea from an overly ambitious father and son duo, the business was started at a small town outside Austin. With one single barrel the dream was put into motion, and they never looked back from that moment on.</p>
     </div>
     <div className="vertical-line-2"></div>
   </div>
@@ -84,14 +84,14 @@ const About = () => {
       <img src={bg4} alt="town" className="w-[700px] mt-[18px] h-[700px]" />
     </div>
     <div className='w-[400px]'>
-      <p className="text-white mt-[275px] text-[24px]">Starting as a small idea from an overly ambitious father and son duo, the business was started at a small town outside Austin. With one single barrel the dream was put into motion, and they never looked back from that moment on.</p>
+      <p className="text-white mt-[275px]">Starting as a small idea from an overly ambitious father and son duo, the business was started at a small town outside Austin. With one single barrel the dream was put into motion, and they never looked back from that moment on.</p>
     </div>
     <div className="vertical-line-3"></div>
   </div>
    
  </section>
- <section  className="w-full h-[100vh] mt-auto bg-white mb-5">
- <h1 className="my-8 text-center text-black">Most Popular Whiskey</h1>
+ <section  className="w-full mt-auto mb-5 bg-white">
+ <h1 className="mt-4 text-center text-black">Most Popular Whiskey</h1>
   <div className='grid grid-cols-3 card-group'>
    
    <Card/>
